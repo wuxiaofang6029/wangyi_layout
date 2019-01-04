@@ -1,12 +1,12 @@
 <template>
   <div class='wrap'>
-    <header><span>
-        <router-link class='routs' to="/"> &lt;</router-link>
-      </span> <span>手机号登录
-      </span>
-      <span> 
-
-      </span></header>
+    <header>
+      <span>
+        <router-link class='routs' to="/register"> &lt;</router-link>
+      </span> 
+      <span>手机号登录</span>
+      <span> </span>
+    </header>
     <div class='section'>
       <div>
         <img src="../assets/1.png" alt="">
@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="btn-group">
-        <router-link to="/home"><button class="btn">登录</button></router-link>
+        <router-link to="/home/reco"><button class="btn">登录</button></router-link>
       <P><span class="use">重设密码</span></P>
     </div>
   </div>

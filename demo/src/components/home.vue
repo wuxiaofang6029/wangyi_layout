@@ -1,4 +1,5 @@
 <template>
+    <!-- 发现 -->
   <div class='wraper'>
     <div class="main">
       <Top></Top>
@@ -47,21 +48,6 @@
 </script>
 
 <style>
-    .wraper {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-    }
-    
-    .main {
-        width: 100%;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-    }
-    
     .nav {
         width: 100%;
         height: 40px;

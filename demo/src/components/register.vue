@@ -33,7 +33,7 @@
 
 <script>
     export default {
-        name: "HelloWorld",
+        name: "Register",
         data() {
             return {
                 msg: "Welcome to Your Vue.js App"
@@ -106,7 +106,6 @@
     .footes dl dt {
         width: 50px;
         height: 50px;
-        background: pink;
         margin: 0 auto;
     }
     

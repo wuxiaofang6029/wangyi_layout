@@ -1,30 +1,30 @@
 <template>
     <div class="footer">
-        <router-link to=''>
+        <router-link to='/home/reco'>
           <dl>
             <dt><i class="el-icon-news"></i></dt>
             <dd>发现</dd>
           </dl>
         </router-link>
-        <router-link to=''>
+        <router-link to='/videos'>
           <dl>
             <dt><i class="el-icon-picture-outline"></i></dt>
             <dd>视频</dd>
           </dl>
         </router-link>
-        <router-link to=''>
+        <router-link to='/mine'>
           <dl>
             <dt><i class="el-icon-location-outline"></i></dt>
             <dd>我的</dd>
           </dl>
         </router-link>
-        <router-link to=''>
+        <router-link to='/friend'>
           <dl>
             <dt><i class="el-icon-phone-outline"></i></dt>
             <dd>朋友</dd>
           </dl>
         </router-link>
-        <router-link to=''>
+        <router-link to='/account'>
           <dl>
             <dt><i class="el-icon-message"></i></dt>
             <dd>账号</dd>
@@ -67,5 +67,9 @@
     .footer a dl dd {
         font-size: 12px;
         line-height: 2;
+    }
+    
+    .footer .router-link-active {
+        color: rgb(209, 55, 55);
     }
 </style>
